@@ -1,21 +1,22 @@
-body{
+body {
     font-family: 'Cormorant', serif;
 }
 
-h1{
+h1 {
     display: inline-block;
     font-weight: 300;
     margin: 0 32px 0 0;
 }
 
-.links{
+.links {
     display: inline-block;
 }
 
-.links ul{
+.links ul {
     padding: 0;
 }
-.links li{
+
+.links li {
     display: inline-block;
 }
 
@@ -25,32 +26,66 @@ h1{
     font-size: 20px;
     margin: 0 8px;
 }
-a.active{
+
+a .active {
     border-bottom: 1px solid black;
 }
-.navbar{
+
+.navbar {
     margin: 32px;
 }
-.card{
+
+.card {
     width: 49.75%;
     display: inline-block;
     box-sizing: border-box;
     padding: 20px;
 }
-.card img{
+
+.card img {
     height: 500px;
-
-
     width: 100%;
     object-fit: cover;
 }
 
-.card h2{
+img:hover {
+    opacity: 0.9;
+}
+
+.card h2 {
     display: inline-block;
     font-weight: 300;
     margin: 8px 0 16px 0;
 }
 
-.gallery{
+.gallery {
     padding: 20px;
 }
+
+.about h3 {
+    font-weight: 300;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.cta {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
